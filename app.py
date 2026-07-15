@@ -7,7 +7,7 @@ st.set_page_config(page_title="PTA Dashboard", layout="wide")
 st.title("Pressure Transient Analysis Dashboard")
 
 st.sidebar.header('Reservoir Parameters')
-porosity = st.sidebar.number_input('Enter Porosity(∅) (Fraction)', value=0.0)
+porosity = st.sidebar.number_input('Enter Porosity(∅) (fraction)', value=0.0)
 viscosity = st.sidebar.number_input('Enter Fluid Viscosity(μ) (cp)', value=0.0)
 FVF = st.sidebar.number_input('Enter Formation Volume Factor(B) (rb/STB)', value=0.0)
 ct = st.sidebar.number_input('Enter Total Compressibility(ct) (1/psi)', value=0.0, format="%f")
