@@ -4,7 +4,7 @@ import plotly.graph_objects as go
 import streamlit as st
 
 st.set_page_config(page_title="PTA Dashboard", layout="wide")
-st.title("Pressure Transient Analysis Dashboard")
+st.title("Pressure Transient Analysis")
 
 st.sidebar.header('Reservoir Parameters')
 porosity = st.sidebar.number_input('Enter Porosity(∅) (fraction)', value=0.0)
